@@ -1,0 +1,15 @@
+contador=0
+
+for i in range (10):
+    nome =  input( "Digite seu nome: ")
+    idade =  int( input(" Digite sua Idade: "))
+
+
+    if idade >= 9 and idade <= 13:
+        contador = contador + 1
+        print(" Deve ser Vacinada ")
+        print(contador, "Menina foi vacinada até o momento ")
+
+    else:
+        print("Não deve ser Vacinada")
+        print(contador, " Menina(s) foram vacinadas até o momento ")
